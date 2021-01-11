@@ -1,15 +1,15 @@
 {
-  "executable": "BlazorDesktopSample",
+  "executable": "Blazor.UI",
   "splashscreen": {
     "imageFile": ""
   },
-  "name": "BlazorDesktopSample",
+  "name": "Blazor.UI",
   "author": "",
   "singleInstance": false,
   "environment": "Production",
   "build": {
-    "appId": "com.BlazorDesktopSample.app",
-    "productName": "BlazorDesktopSample",
+    "appId": "com.Blazor.UI.app",
+    "productName": "Blazor.UI",
     "copyright": "Copyright © 2020",
     "buildVersion": "1.0.0",
     "compression": "maximum",

@@ -1,14 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+
 using ElectronNET.API;
 
-namespace BlazorDesktopSample
+namespace Blazor.UI
 {
     public class Program
     {
@@ -22,7 +17,7 @@ namespace BlazorDesktopSample
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>()
-                    .UseElectron(args);
+                        .UseElectron(args);
                 });
     }
 }
